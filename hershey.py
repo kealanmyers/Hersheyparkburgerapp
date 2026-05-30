@@ -1,6 +1,8 @@
 import math
 
 from data import rides
+
+
 def main():
     #determine user's location
     location = str(input("What ride are you at? ").strip())
