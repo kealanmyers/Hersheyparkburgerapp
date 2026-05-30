@@ -1,9 +1,9 @@
 """
-Checks that the ride list and index lookups match hershey.rides.
+Checks that the ride list and index lookups match data.py.
 
-Run:
+Run from project root:
     pip install pytest httpx
-    pytest test_api.py -v
+    pytest tests/ -v
 """
 
 import pytest
@@ -53,8 +53,21 @@ def test_invalid_index_returns_404():
     assert client.get("/rides/-1").status_code == 404
 
 
-def test_wait_times_accepts_every_index():
-    for i in range(len(RIDE_NAMES)):
-        response = client.get("/wait-times", params={"index": i})
-        assert response.status_code == 200
-        assert response.json()["ride"]["name"] == RIDE_NAMES[i]
+def test_closest_rides_returns_six_placeholders():
+    skyrush_index = RIDE_NAMES.index("Skyrush")
+    response = client.get(f"/rides/{skyrush_index}/closest")
+    assert response.status_code == 200
+    body = response.json()
+
+    assert body["from"]["name"] == "Skyrush"
+    assert body["implemented"] is False
+    assert len(body["closest_rides"]) == 6
+    assert body["closest_rides"][0]["rank"] == 1
+    assert body["closest_rides"][0]["index"] is None
+
+
+@pytest.mark.parametrize("index", range(len(RIDE_NAMES)))
+def test_closest_rides_accepts_every_index(index: int):
+    response = client.get(f"/rides/{index}/closest")
+    assert response.status_code == 200
+    assert response.json()["from"]["index"] == index
