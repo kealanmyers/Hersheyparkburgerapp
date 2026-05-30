@@ -1,0 +1,551 @@
+{
+  "lands": [
+    {
+      "id": 843,
+      "name": "Chocolatetown",
+      "rides": [
+        {
+          "id": 7977,
+          "name": "Candymonium ",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 7318,
+          "name": "Carrousel",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 842,
+      "name": "Founder's Way",
+      "rides": [
+        {
+          "id": 438,
+          "name": "Balloon Flite",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6459,
+          "name": "Cocoa Cruiser",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6669,
+          "name": "Dizzy Drums",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6475,
+          "name": "Fender Bender",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6544,
+          "name": "Helicopters presented by Penn State Health",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 434,
+          "name": "Mini Himalaya",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6461,
+          "name": "Mini Pirate ",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 352,
+          "name": "Minty Bees",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6464,
+          "name": "Misfit Bug",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6462,
+          "name": "Monorail",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 462,
+          "name": "Reese's Cupfusion",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6935,
+          "name": "Scrambler",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 335,
+          "name": "Space Age",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 7317,
+          "name": "Starship America",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6936,
+          "name": "Swing Thing",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 2022,
+          "name": "Tilt-A-Whirl",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 337,
+          "name": "Traffic Jam",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Kissing Tower Hill",
+      "rides": [
+        {
+          "id": 2023,
+          "name": "Coal Cracker",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 7053,
+          "name": "Convoy",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 440,
+          "name": "Frog Hopper",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 1993,
+          "name": "Great Bear",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 455,
+          "name": "Hershey Triple Tower - Hershey's Kisses Tower",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6455,
+          "name": "Hershey Triple Tower - Hershey's Tower",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6454,
+          "name": "Hershey Triple Tower - Reese's Tower",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 1998,
+          "name": "Kissing Tower",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 353,
+          "name": "Twin Turnpike - Classic Cars presented by Sunoco",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6473,
+          "name": "Twin Turnpike - Speedway presented by Sunoco",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Midway America",
+      "rides": [
+        {
+          "id": 6552,
+          "name": "Ferris Wheel",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 336,
+          "name": "Granny Bugs",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 1994,
+          "name": "Lightning Racer",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6474,
+          "name": "Music Express",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 404,
+          "name": "Pony Parade",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 15251,
+          "name": "Star-Spangled Laff Trakk",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6554,
+          "name": "Tiny Tracks",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 351,
+          "name": "Wild Mouse",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6564,
+          "name": "Wildcat's Revenge ",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Pioneer Frontier",
+      "rides": [
+        {
+          "id": 6849,
+          "name": "Dry Gulch Railroad",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6442,
+          "name": "Fahrenheit",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 405,
+          "name": "Jolly Rancher Remix",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 268,
+          "name": "Liberty Flyers",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 460,
+          "name": "Livery Stables",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 463,
+          "name": "Mini Scrambler",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 2049,
+          "name": "Mix'd Flavored By Jolly Rancher",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6971,
+          "name": "Pirate",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 7315,
+          "name": "Red Baron",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6445,
+          "name": "Storm Runner",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 260,
+          "name": "The Claw",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6969,
+          "name": "The Howler",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6444,
+          "name": "Trailblazer",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "name": "The Boardwalk",
+      "rides": [
+        {
+          "id": 10819,
+          "name": "Bayside Pier ",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6456,
+          "name": "Breakers Edge Water Coaster",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6672,
+          "name": "Coastline Plunge - Hydro",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6673,
+          "name": "Coastline Plunge - Pipeline",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6674,
+          "name": "Coastline Plunge - Riptide",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6675,
+          "name": "Coastline Plunge - Surge",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6676,
+          "name": "Coastline Plunge - Vortex",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 2028,
+          "name": "Coastline Plunge - Whirlwind",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 10812,
+          "name": "East Coast Waterworks",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6670,
+          "name": "Intercoastal Waterway",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6677,
+          "name": "Shoreline Sprayground",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6671,
+          "name": "The Shore",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 1996,
+          "name": "Tidal Force",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6645,
+          "name": "Whitecap Racer",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "The Hollow",
+      "rides": [
+        {
+          "id": 1991,
+          "name": "Comet ",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6443,
+          "name": "Skyrush",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 2030,
+          "name": "sooperdooperLooper",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6562,
+          "name": "Sweet Swing",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 6553,
+          "name": "Tea Cups",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 14855,
+          "name": "Twizzlers Twisted Gravity",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        },
+        {
+          "id": 7314,
+          "name": "Wave Swinger",
+          "is_open": false,
+          "wait_time": 0,
+          "last_updated": "2026-05-30T04:25:03.000Z"
+        }
+      ]
+    }
+  ],
+  "rides": []
+}
