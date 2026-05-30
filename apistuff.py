@@ -1,5 +1,7 @@
 import requests as r
-url = "https://queue-times.com/parks/15/queue_times.json"
-response = r.get(url)
+
+from data import QUEUE_TIMES_URL
+
+response = r.get(QUEUE_TIMES_URL)
 data = response.json()
 print(data)
