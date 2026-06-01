@@ -10,7 +10,7 @@ QUEUE_TIMES_URL = "https://queue-times.com/parks/15/queue_times.json"
 
 # Major rides only — names from queue-times.com/parks/15/queue_times.json
 RIDES = [
-    {"name": "Breakers Edge Water Coaster", "x": 1960, "y": 1570},
+    {"name": "Breakers Edge", "x": 1960, "y": 1570},
     {"name": "Candymonium", "x": 4040, "y": 2210},
     {"name": "Carrousel", "x": 3830, "y": 2390},
     {"name": "Coal Cracker", "x": 3460, "y": 820},
@@ -39,7 +39,7 @@ RIDES = [
     {"name": "Reese's Cupfusion", "x": 3260, "y": 1810},
     {"name": "Skyrush", "x": 3660, "y": 1430},
     {"name": "sooperdooperLooper", "x": 3820, "y": 1260},
-    {"name": "Star-Spangled Laff Trakk", "x": 1370, "y": 2630},
+    {"name": "Laff Trakk", "x": 1370, "y": 2630},
     {"name": "Storm Runner", "x": 2420, "y": 1490},
     {"name": "Tidal Force", "x": 2050, "y": 1680},
     {"name": "Trailblazer", "x": 2780, "y": 1480},
@@ -78,3 +78,31 @@ RIDE_COUNT = len(RIDES)
 #
 # RIDE_NAMES = ["Breakers Edge Water Coaster", "Candymonium", ...]  (ordered list)
 # RIDE_COUNT = 37
+
+
+
+
+# rides = {
+#     "Candymonium": {"x": 4040, "y": 2210},
+#     "Carrousel": {"x": 3830, "y": 2390},
+
+
+#     "Kissing Tower": {"x": 3190, "y": 760},
+#     "Great Bear": {"x": 3310, "y": 950},
+#     "Coal Cracker": {"x": 3460, "y": 820},
+
+#     "Trailblazer": {"x": 2780, "y": 1480},
+#     "Storm Runner": {"x": 2420, "y": 1490},
+#     "Jolly Rancher Remix": {"x": 2210, "y": 1660},
+#     "Mix'd Flavored By Jolly Rancher": {"x": 2560, "y": 1810},
+
+#     "Wildcat's Revenge": {"x": 1900, "y": 2490},
+#     "Wild Mouse": {"x": 1580, "y": 2290},
+#     "Laff Trakk": {"x": 1370, "y": 2630},
+#     "Lightning Racer": {"x": 1230, "y": 2140},
+
+#     "Ferris Wheel": {"x": 3070, "y": 1560},
+#     "Reese's Cupfusion": {"x": 3260, "y": 1810},
+#     "Cocoa Cruiser": {"x": 2940, "y": 1730},
+#     "Twizzlers Twisted Gravity": {"x": 3190, "y": 1340},
+# }
