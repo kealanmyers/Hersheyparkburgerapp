@@ -77,7 +77,6 @@
           div.className = 'item';
           div.innerHTML = `
             <div class="name">${item.rank}. ${item.name}</div>
-            <div class="sub">distance: ${Math.round(item.distance)} units</div>
             <div class="pill">${fmtWait(item.wait_minutes)}</div>
           `;
           resultsEl.appendChild(div);
