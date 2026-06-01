@@ -8,9 +8,6 @@ rides = {
     "Candymonium": {"x": 4040, "y": 2210},
     "Carrousel": {"x": 3830, "y": 2390},
 
-    "Skyrush": {"x": 3660, "y": 1430},
-    "Comet": {"x": 3380, "y": 1570},
-    "SooperDooperLooper": {"x": 3820, "y": 1260},
 
     "Kissing Tower": {"x": 3190, "y": 760},
     "Great Bear": {"x": 3310, "y": 950},
@@ -101,7 +98,7 @@ def square(n):
     return(n * n)
 
 def getdistance(x1, y1, x2, y2):
-    return(math.sqrt((square(x1 - x2)) + (square(y1 - y2))))
+    return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 
 def getwait(sixnames):
