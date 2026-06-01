@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hersheypark – Closest Rides</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 16px; }
+      .wrap { max-width: 900px; }
+      .card { border: 1px solid #ccc; padding: 12px; }
+      h1 { margin: 0 0 8px; font-size: 20px; }
+      p { margin: 0 0 12px; }
+      label { display: block; margin: 0 0 6px; }
+      select { min-width: 320px; }
+      button { margin-left: 8px; }
+      .meta { margin-top: 10px; font-size: 12px; color: #444; }
+      .list { margin-top: 12px; }
+      .item { border: 1px solid #ddd; padding: 8px; margin: 8px 0; }
+      .name { font-weight: bold; }
+      .sub { font-size: 12px; color: #444; margin-top: 2px; }
+      .pill { font-size: 12px; color: #111; margin-top: 6px; }
+      a { color: #06c; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Closest rides + live wait times</h1>
+        <p>Select where you are right now. We’ll show the 6 closest rides and their current waits.</p>
+
+        <div>
+          <label for="rideSelect">Current ride</label>
+          <select id="rideSelect"></select>
+          <button id="goBtn">Show closest</button>
+        </div>
+
+        <div class="meta" id="status"></div>
+        <div class="list" id="results"></div>
+
+        <div class="meta">
+          API docs: <a href="/docs">/docs</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      const rideSelect = document.getElementById('rideSelect');
+      const goBtn = document.getElementById('goBtn');
+      const statusEl = document.getElementById('status');
+      const resultsEl = document.getElementById('results');
+
+      function setStatus(msg) { statusEl.textContent = msg || ''; }
+      function fmtWait(w) {
+        if (w === null || w === undefined) return 'wait: n/a';
+        if (typeof w === 'number') return `wait: ${w} min`;
+        return `wait: ${w}`;
+      }
+
+      async function loadRides() {
+        setStatus('Loading rides…');
+        const resp = await fetch('/rides');
+        if (!resp.ok) throw new Error(`GET /rides failed (${resp.status})`);
+        const body = await resp.json();
+        rideSelect.innerHTML = '';
+        for (const r of body.rides) {
+          const opt = document.createElement('option');
+          opt.value = r.index;
+          opt.textContent = r.name;
+          rideSelect.appendChild(opt);
+        }
+        setStatus('Ready.');
+      }
+
+      function render(closest) {
+        resultsEl.innerHTML = '';
+        for (const item of closest) {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `
+            <div class="name">${item.rank}. ${item.name}</div>
+            <div class="sub">distance: ${Math.round(item.distance)} units</div>
+            <div class="pill">${fmtWait(item.wait_minutes)}</div>
+          `;
+          resultsEl.appendChild(div);
+        }
+      }
+
+      async function go() {
+        const index = rideSelect.value;
+        if (index === '') return;
+        goBtn.disabled = true;
+        resultsEl.innerHTML = '';
+        setStatus('Finding closest rides…');
+        try {
+          const resp = await fetch(`/rides/${index}/closest`);
+          if (!resp.ok) throw new Error(`GET /rides/${index}/closest failed (${resp.status})`);
+          const body = await resp.json();
+          render(body.closest_rides);
+          setStatus(`From: ${body.from.name}`);
+        } finally {
+          goBtn.disabled = false;
+        }
+      }
+
+      goBtn.addEventListener('click', go);
+      rideSelect.addEventListener('change', () => { resultsEl.innerHTML = ''; setStatus('Ready.'); });
+
+      loadRides().catch(err => setStatus(err.message));
+    </script>
+  </body>
+</html>

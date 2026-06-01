@@ -60,10 +60,12 @@ def test_closest_rides_returns_six_placeholders():
     body = response.json()
 
     assert body["from"]["name"] == "Skyrush"
-    assert body["implemented"] is False
+    assert body["implemented"] is True
     assert len(body["closest_rides"]) == 6
     assert body["closest_rides"][0]["rank"] == 1
-    assert body["closest_rides"][0]["index"] is None
+    assert body["closest_rides"][0]["index"] is not None
+    assert body["closest_rides"][0]["name"]
+    assert body["closest_rides"][0]["distance"] is not None
 
 
 @pytest.mark.parametrize("index", range(len(RIDE_NAMES)))
